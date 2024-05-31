@@ -1,0 +1,21 @@
+.img {
+    width: 70%;
+    max-height: 300px;
+    text-align: center;
+}
+
+.div {
+    margin: 0 auto; /* Center the container horizontally */
+    max-width: 800px; /* Set the maximum width of the container */
+  }
+  
+  .slick-slide img {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .h3 {
+    font-family: 'Romvel';
+    font-size: 50px;
+    text-align: center;
+  }

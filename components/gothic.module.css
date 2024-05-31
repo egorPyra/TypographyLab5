@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Romvel';
+    src: url('../public/fonts/Romvel.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+.h1 {
+    font-size: 60px;
+    margin-top: 80px;
+  }
+
+
+  .containerMini {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f8f0e3; /* Light parchment color */
+        padding: 20px;
+        font-family: 'Garamond', serif; /* A classic serif font */
+      }
+      
+      .text {
+        background-color: #fff8dc; /* Antique white color */
+        padding: 20px;
+        border: 2px solid #8b4513; /* Saddle brown border */
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        font-size: 32px;
+        color: #333;
+        line-height: 1.6;
+        text-align: justify;
+        position: relative;
+        font-family: 'Old English Text MT', 'Garamond', serif;
+      }
+      
+      .dropcap {
+        float: left;
+        font-size: 4em;
+        line-height: 0.6;
+        padding-right: 8px;
+        padding-left: 3px;
+        color: #4b0082; 
+        font-family:  'Garamond', serif; /* Medieval styled font */
+      }
+      
+      .dropcap img {
+        max-width: 76px;
+      }
+
+
+      .GothicIntro {
+        display: flex;
+        flex-direction: row;
+        height: 300px;
+        margin: 0 100px;
+      }
+
+      .GothicIntro h2 {
+        color: #F1E6D4;
+      }
+
+      .GothicIntro img {
+        mix-blend-mode: hard-light;
+      }
+
+
+      .GothicTitle {
+        font-family: 'Romvel';
+        font-size: 80px;
+        margin: 100px auto;
+        text-align: center;
+      }
+
+      .carusel {
+        margin: 0 auto;
+        width: 60%;
+        text-align: left;
+      }
