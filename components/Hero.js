@@ -31,7 +31,7 @@ const Table = () => {
     <img src='/a.png' className={styles.tableImage} />, 
     "ф", 
     "и", 
-    <img src='/k.gif' className={styles.tableImage}/>, 
+    <img className={styles.k} src='/k.gif' className={styles.tableImage}/>, 
     "и"
   ];
 
