@@ -1,0 +1,139 @@
+.h1 {
+    font-size: 60px;
+    margin-top: 80px;
+  }
+
+
+  .article {
+    margin-top: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .article h2::before {
+        content: '•';
+        display: inline-block;
+        margin-right: 10px;
+      }
+  
+
+  .article p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 40px;
+  }
+
+  .box {
+    display: flex;
+}
+
+.box img {
+    max-width: 40%;
+    height: auto;
+    margin: 3%;
+}
+
+.box h2 {
+    margin: 6% 3%;
+}
+
+.container b {
+    text-decoration: underline;
+}
+
+.green {
+    filter: invert(100%) saturate(0);
+    mix-blend-mode: hard-light;
+    width: 100%;
+}
+
+.marqueeContainer {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    z-index: 3;
+  }
+  
+  .marquee {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee 25s linear infinite;
+  }
+  
+  .marqueeImage {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin-right: 20px;
+    filter: invert(1);
+    mix-blend-mode: hard-light;
+
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  .marqueeContainer1 {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    z-index: 3;
+  }
+  
+  .marquee1 {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee1 25s linear infinite;
+  }
+  
+  .marqueeImage1 {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin-right: 20px;
+    filter: invert(1);
+    mix-blend-mode: hard-light;
+
+  }
+  
+  @keyframes marquee1 {
+    0% {
+      transform: translateX(-50%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
+  
+
+  .btw {
+    width: 100%;
+    font-size: 3.3vw;
+    text-align: center;
+  }
+
+  .akw {
+    width: 100%;
+    font-size: 3vw;
+  }
+
+  .akwImg {
+    width: 90%;
+    margin: 0 5%;
+    filter: invert(1);
+
+  }
+
+  .types {
+    max-width: 90%;
+    margin: 0 5%;
+  }

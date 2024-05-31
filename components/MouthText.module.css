@@ -1,0 +1,31 @@
+/* components/ImageTextComponent.module.css */
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    height: 80vh; /* Full viewport height */
+  }
+  
+  .image {
+    max-width: 80%;
+    height: auto;
+    z-index: 20;
+  }
+  .blackCanvas {
+    z-index: 19;
+    background: #000;
+    position: absolute;
+    width: 400px;
+    height: 799px;
+  }
+  
+  .text {
+    position: absolute;
+    white-space: nowrap;
+    font-size: 24px;
+    font-weight: bold;
+    transform: translate(0, 0);
+    z-index: 1;
+  }
+  
