@@ -5,7 +5,7 @@ export default function Serif() {
 
     return (
         <div className={styles.container}>
-            <h1 className={styles.h1}>2. Первая антиква</h1>
+            <h1 className={styles.h1}>2. Зачатки антиквы</h1>
 
             <div className={styles.block}>
                 <img src={'https://sun1-89.userapi.com/s/v1/ig2/XkfX6K-BPfUFPrLWwMFlk9A6-DnWGPSFqqN6Q83prNNehmbD7Eky6kk2h8SCj8JRmm6LKrQJ1gCJuYm0snyRc_ty.jpg?size=631x631&quality=95&crop=327,0,631,631&ava=1'} className={styles.image} />
