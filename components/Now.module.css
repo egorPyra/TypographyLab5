@@ -11,6 +11,10 @@
     padding: 0 20px;
   }
 
+  .article h1 {
+    font-size: larger;
+  }
+
   .article h2::before {
         content: '•';
         display: inline-block;
